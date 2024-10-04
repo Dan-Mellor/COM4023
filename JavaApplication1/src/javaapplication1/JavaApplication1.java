@@ -20,11 +20,11 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         //Exercise One
         System.out.println("Hello World");
-    }
+    
     
         //Exercise Two 
         Scanner reader = new Scanner(System.in);
-        System.out.println("What is your naem")
+        System.out.println("What is your name");
         String name=reader.nextLine();
         System.out.println("Your name was "+ name);
         
@@ -36,4 +36,5 @@ public class JavaApplication1 {
         System.out.println("Hello " + name);
     }
     */
+    }
 }
