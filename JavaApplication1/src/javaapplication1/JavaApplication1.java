@@ -26,7 +26,7 @@ public class JavaApplication1 {
         Scanner reader = new Scanner(System.in);
         System.out.println("What is your name");
         String name=reader.nextLine();
-        System.out.println("Your n was "+ name);
+        System.out.println("Your name was "+ name);
         
     
    /** public static void main(String[] args) {
