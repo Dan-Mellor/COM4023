@@ -45,4 +45,34 @@ public class Song {
     public void setArtistName(String artistName) {
         this.artistName = artistName;
     }
+    
+     /** 
+     * Method: this method will get the songs name 
+     * @return 
+     */
+    public String getsongTitle(){
+        return this.songTitle; 
+    
+    
+    }
+    
+    public void setsongTitle(String songTitle) {
+        this.songTitle = songTitle;
+    }
+    
+     /** 
+     * Method: this method will get the total number of plays
+     */
+    
+    
+    public int getplayBack(){
+        return this.playBack; 
+    
+    
+    }
+    
+    public void setplayBack(int playBack) {
+        this.playBack = playBack;
+    }
+    
 }
