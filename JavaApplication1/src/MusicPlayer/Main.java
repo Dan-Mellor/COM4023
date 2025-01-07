@@ -24,9 +24,9 @@ public class Main {
         }
         musicList.printMusicList();
         System.out.println(musicList.getMusicListSize());
-        musicList.findByArtist("Genesis");
+        musicList.findByArtist("Fleetwood Mac");
         musicList.getRandomSong();
-        musicList.removeSong("Firth of Fifth");
+        musicList.removeSong("Dreams");
         System.out.println("==================");
         musicList.printMusicList();
     }
