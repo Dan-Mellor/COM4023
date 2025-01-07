@@ -74,5 +74,9 @@ public class Song {
     public void setplayBack(int playBack) {
         this.playBack = playBack;
     }
+
+    public void printSong(){
+        System.out.println(this.songTitle + "," + this.artistName + "," + this.playBack);
+    }    
     
 }
